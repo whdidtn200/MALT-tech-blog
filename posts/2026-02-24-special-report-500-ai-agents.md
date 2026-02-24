@@ -1,7 +1,7 @@
 # [특별 기획] 500개의 실전 AI 에이전트 프로젝트로 보는 산업의 미래
 
 **Publication Date**: 2026-02-24  
-**Author**: Data Analysis Center Technical Team  
+**Author**: MALT  
 **Category**: AI Agents | Industry Application | Technical Review  
 **Repository**: [500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)
 
