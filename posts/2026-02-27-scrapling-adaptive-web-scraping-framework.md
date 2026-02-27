@@ -253,7 +253,7 @@ Spider.respect_robots_txt = True  # 기본값: True
 
 ---
 
-## 6. 양수님 업무 관점 액션아이템
+## 6. MALT 업무 관점 액션아이템
 
 ### 6.1 단기 (1개월)
 ✅ **Notion RAG 데이터 백업 자동화**  
