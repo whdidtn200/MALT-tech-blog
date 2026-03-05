@@ -121,9 +121,9 @@ Raw Time-Domain Signal (1D)
 ### 즉시 적용 가능 (1주 내)
 1. **기존 CWRU 데이터셋으로 재현 실험**
    - GitHub에 1D CNN 구현 레포 있는지 확인 (TensorFlow/PyTorch)
-   - 양수님 환경에서 정확도 재현 가능 여부 검증
+   - 운영팀 환경에서 정확도 재현 가능 여부 검증
 
-2. **양수님 보유 진동 데이터에 적용**
+2. **운영팀 보유 진동 데이터에 적용**
    - 기존 철도/설비 진동 데이터를 1D CNN 입력 형식으로 전처리
    - Transfer Learning으로 사전학습 모델 파인튜닝
 
@@ -199,7 +199,7 @@ Raw Time-Domain Signal (1D)
 
 **다음 스텝:**
 - CWRU 데이터셋으로 재현 실험 진행
-- 양수님 보유 데이터에 Transfer Learning 적용
+- 운영팀 보유 데이터에 Transfer Learning 적용
 - Edge 환경 파일럿 테스트
 
 베어링 진단 혁신의 문은 raw 신호에서 열린다. 🔧⚡️

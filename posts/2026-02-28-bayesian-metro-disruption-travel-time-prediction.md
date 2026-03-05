@@ -141,7 +141,7 @@ Total Travel Time = Delay Component + Journey Component
 
 ---
 
-## 양수님 업무 관점 핵심 요약
+## 운영팀 업무 관점 핵심 요약
 
 ### 즉시 적용 가능한 인사이트
 1. **장애 복구 단계 모니터링 강화**: 공식 복구 선언 != 실제 정상 운영
