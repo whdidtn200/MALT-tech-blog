@@ -1,0 +1,15 @@
+title: MALT Tech Blog
+email: contact@malt-system.local
+description: AI-Driven Railway Intelligence, PHM, and Agentic AI
+baseurl: "/MALT-tech-blog"
+url: "https://whdidtn200.github.io"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+header_pages:
+  - ABOUT.md
+  - CONTACT.md
+  - PRIVACY.md
+  - posts.md
