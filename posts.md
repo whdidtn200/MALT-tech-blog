@@ -6,6 +6,7 @@ permalink: /posts.html
 
 # Posts
 
+- [VAE 기반 베어링 이상 탐지: Average Precision 평가 지표 도입과 실무 적용]({{ '/posts/2026-03-06-vae-bearing-anomaly-detection-ap-metrics.html' | relative_url }})
 - [2026-03-05-phm-agentic-ai-trends-2026]({{ '/posts/2026-03-05-phm-agentic-ai-trends-2026.html' | relative_url }})
 - [2026-03-04-github-hot-trends-agentic-ai-industrial-iot]({{ '/posts/2026-03-04-github-hot-trends-agentic-ai-industrial-iot.html' | relative_url }})
 - [2026-03-03-trending-ai-repos]({{ '/posts/2026-03-03-trending-ai-repos.html' | relative_url }})
