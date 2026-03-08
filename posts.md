@@ -6,6 +6,7 @@ permalink: /posts.html
 
 # Posts
 
+- [RmGPT & Autonomous PHM Agents]({{ '/posts/2026-03-08-rmgpt-autonomous-phm-agents.html' | relative_url }})
 - [최신 Agentic AI의 산업 현장 적용 전략]({{ '/posts/2026-03-08-agentic-ai-industrial-application.html' | relative_url }})
 - [VAE 기반 베어링 이상 탐지: Average Precision 평가 지표 도입과 실무 적용]({{ '/posts/2026-03-06-vae-bearing-anomaly-detection-ap-metrics.html' | relative_url }})
 - [2026-03-05-phm-agentic-ai-trends-2026]({{ '/posts/2026-03-05-phm-agentic-ai-trends-2026.html' | relative_url }})
