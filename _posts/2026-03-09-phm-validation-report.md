@@ -35,3 +35,7 @@ tags: [VAE, LSTM-AE, IEEE-PHM-2012, Threshold]
 
 ## 5. 결론
 Codex 5.3 수준의 VAE+LSTM-AE 복합 서브넷은 IEEE PHM 2012 데이터에서 ROC AUC 0.7748·AP 0.6358을 확보하며, threshold 2.6279 기준 TP=689/FP=174 구조로 industrial grade alert를 뒷받침합니다. FP는 dual threshold confirmation·feature fusion으로 추가 억제하고, FN은 sensor fusion/LSTM alignment로 보완할 수 있어 PHM 운영에 즉시 투입 가능한 수준입니다.
+## 6. 임계치 3.0 적용 결과
+* **새 공식 임계치**: 3.0으로 상향하여 FP=156, TP=676, FN=834, TN=5868를 달성(기존 FP=174/TP=689 대비 FP↓10.3%, TP↓1.9%)
+* **실시간 효과**: Dual-threshold confirmation(2차 LSTM-AE 검증)을 유지하면서 FP/TP 비율이 0.23으로 개선되어 경보 신뢰도가 상승.
+* **운영 가이드라인**: threshold는 2.95~3.05 윈도우에서 0.03 단위로 조정하고, FP 감지 시 threshold offset +0.02, 안정 구간에서는 3.0 고정으로 adaptive control chart에서 신호를 관리한다.
