@@ -13,3 +13,5 @@ header_pages:
   - CONTACT.md
   - PRIVACY.md
   - posts.md
+
+future: true
