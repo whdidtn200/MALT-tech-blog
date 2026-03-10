@@ -1,6 +1,6 @@
 ---
 title: "[MALT 큐레이션] 모니터링 없는 다중 에이전트 프로덕션은 없다: 6시간 주기 리셋과 Observability의 실전"
-date: 2026-03-10 07:20:00 +0900
+date: 2026-03-10 22:00:00 +0000
 layout: post
 categories: [MALT, Observability, Operations]
 tags: [LLM, Observability, Monitoring, Cron]
