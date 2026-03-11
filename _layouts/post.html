@@ -23,6 +23,16 @@
       </article>
       <div class="archive-cta">
         <a class="archive-link" href="{{ "/posts.html" | relative_url }}">전체 아카이브 보기</a>
+        <p>최근 글 바로 보기:</p>
+        <ul>
+          {% assign recent_posts = site.posts | sort: "date" | reverse %}
+          {% for post in recent_posts limit:5 %}
+            <li>
+              <small>{{ post.date | date: "%Y-%m-%d" }} ·</small>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     </main>
     <footer>
