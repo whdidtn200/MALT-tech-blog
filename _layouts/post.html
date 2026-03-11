@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+    </header>
+    <main>
+      <article>
+        <header>
+          <p class="post-meta">{{ page.date | date: "%Y-%m-%d" }}</p>
+          <h2>{{ page.title }}</h2>
+        </header>
+        <section class="post-content">
+          {{ content }}
+        </section>
+      </article>
+      <div class="archive-cta">
+        <a class="archive-link" href="{{ "/posts.html" | relative_url }}">전체 아카이브 보기</a>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. Published with 💛.</p>
+    </footer>
+  </body>
+</html>
