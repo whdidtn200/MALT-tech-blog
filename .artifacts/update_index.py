@@ -3,9 +3,9 @@ import pathlib
 import re
 import yaml
 
-BASE_URL = ""
+BASE_URL = "/MALT-tech-blog"
 POSTS_DIR = pathlib.Path("_posts")
-INDEX_FILE = pathlib.Path("/Users/yanngsoo/dev/whdidtn200.github.io/index.html")
+INDEX_FILE = pathlib.Path("index.html")
 
 
 def read_front_matter(text: str):
